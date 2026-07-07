@@ -1,0 +1,51 @@
+{
+  "best_model": "Gradient Boosting",
+  "accuracy": 0.86,
+  "all_results": {
+    "Logistic Regression": 0.7217,
+    "Random Forest": 0.8583,
+    "Gradient Boosting": 0.86,
+    "XGBoost": 0.8367
+  },
+  "feature_columns": [
+    "age",
+    "weight",
+    "blood_group_enc",
+    "last_donation_days",
+    "donations_count",
+    "haemoglobin",
+    "city_Chennai",
+    "city_Delhi",
+    "city_Hyderabad",
+    "city_Kolkata",
+    "city_Mumbai",
+    "city_Pune"
+  ],
+  "city_columns": [
+    "city_Chennai",
+    "city_Delhi",
+    "city_Hyderabad",
+    "city_Kolkata",
+    "city_Mumbai",
+    "city_Pune"
+  ],
+  "cities": [
+    "Bangalore",
+    "Chennai",
+    "Delhi",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai",
+    "Pune"
+  ],
+  "blood_groups": [
+    "A+",
+    "A-",
+    "AB+",
+    "AB-",
+    "B+",
+    "B-",
+    "O+",
+    "O-"
+  ]
+}
